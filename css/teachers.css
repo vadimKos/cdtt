@@ -1,0 +1,71 @@
+html {
+    overflow-x: hidden;
+
+}
+
+.central_area {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.head_info {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.teacher_cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.teacher {
+    width: 350px;
+    min-width: 200px;
+    margin: 20px 10px;
+}
+
+.teacher img{
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.teacher p {
+    padding: 10px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+.teacher p:last-child {
+    line-height: 1.5;
+    border-top: calc(.2px + .05em) solid #ededed;
+    text-align: start;
+}
+
+.teacher:first-child p:last-child {
+    border-top: none;
+    text-align: center;
+}
+
+p.teacher_fio{
+    font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+
+    .central_area {
+        width: 100%;
+
+    .teacher {
+        width: 100%;
+    }
+
+    .teacher img{
+        width: 100%;
+    }
+}

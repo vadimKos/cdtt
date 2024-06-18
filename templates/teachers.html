@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>IT-КУБ МАОУ ДО ЦДТТ</title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/teachers.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<div class="wrapper">
+  <header class="header">
+    <!-- Шапка -->
+    <div class="logo">
+      <a href="#"><img src="../img/it-cube.jpg" alt=""></a>
+    </div>
+
+    <!-- Меню сайта -->
+    <nav class="nav">
+      <ul>
+        <li><a href="./index.html">О Центре</a></li>
+        <li><a href="./programms.html">Направления</a> </li>
+        <li><a href="./news.html">Новости</a></li>
+        <li><a href="./documents.html">Документы</a></li>
+        <li><a href="./teachers.html">Педагоги</a></li>
+        <li><a href="./schedule.html">Расписание</a></li>
+        <li><a href="./events.html">Мероприятия</a></li>
+        <li><a href="./contacts.html">Контакты</a></li>
+        <li><a href="tel:+78412651695"><b>+7 (8412) 65-16-95</b></a></li>
+      </ul>
+    </nav>
+
+    <!-- Иконка бургерменю -->
+    <div class="burger">
+      <span></span>
+    </div>
+  </header>
+</div>
+
+<body>
+  <div class="central_area">
+    <p class="head_info"><b>Административный и педагогический состав Центра Цифрового Образования "IT-КУБ" г. Заречный</b></p>
+    <div class="teacher_cards">
+
+      <div class="teacher">
+        <img src="../img/konovalov.jpg" alt="Коновалов Д.А.">
+        <p class="teacher_fio"><b>Коновалов Дмитрий Александрович</b></p>
+        <p class="teacher_position">Директор МАОУ ДО "ЦЕНТР ДЕТСКОГО ТЕХНИЧЕСКОГО ТВОРЧЕСТВА"</p>
+      </div>
+
+      <div class="teacher">
+        <img src="../img/kostychev.jpg" alt="Костычев В.А.">
+        <p class="teacher_fio"><b>Костычев Вадим Александрович</b></p>
+        <p class="teacher_position">Руководитель ЦЦО "IT-КУБ", педагог дополнительного образования</p>
+        <p class="teacher_programms">Направления:<br> - Программирование на Python;<br>- Робототехника</p>
+      </div>
+
+      <div class="teacher">
+        <img src="../img/kostin.jpg" alt="Костин В. В.">
+        <p class="teacher_fio"><b>Костин Вадим Викторович</b></p>
+        <p class="teacher_position">Педагог дополнительного образования</p>
+        <p class="teacher_programms">Направления:<br> - Программирование на Java;<br> - Мобильная разработка</p>
+      </div>
+
+      <div class="teacher">
+        <img src="../img/abashina.jpg" alt="Абашина М.О.">
+        <p class="teacher_fio"><b>Абашина Марина Олеговна</b></p>
+        <p class="teacher_position">Педагог дополнительного образования</p>
+        <p class="teacher_programms">Направления: <br> - Кибергигиена и большие даннные</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+
+
+<footer>
+  <div class="footer_container">
+    <div class="address footer_container_column">
+      <div class="foot_h foot_h address_word">Адрес</div>
+      <div class="inner_footer address_fact">г.Заречный, ул. Конституции СССР, д. 39 А.</div>
+    </div>
+
+    <div class="contacts footer_container_column">
+      <div class="foot_h contacts_word">Контакты</div>
+      <div class="inner_footer contacts_phone"><a href="tel:+78412651695">+7 (8412) 65-16-95<br></a></div>
+      <div class="inner_footer contacts_mail"><a href="mailto:itcube_zar@yandex.ru">itcube_zar@yandex.ru</a></div>
+    </div>
+
+    <div class="social_media footer_container_column">
+      <div class="foot_h social_media_word">Социальные сети</div>
+      <div class="inner_footer vk_icon"><a href="https://vk.com/public195295272"><img src="../img/vk.png"
+            alt="vk_icon"></a></div>
+    </div>
+
+  </div>
+  <div class="footer_line">© 2024, ЦЦО "IT-КУБ" МАОУ ДО ЦДТТ. Все права защищены. Сделано: Костычев Вадим</div>
+</footer>
+<script>
+  document.querySelector('.burger').addEventListener('click', function () {
+    this.classList.toggle('active');
+    document.querySelector('.nav').classList.toggle('open');
+  })
+</script>
+
+</html>

@@ -1,0 +1,114 @@
+html {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.name_page {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.programms {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin: 0px auto;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    justify-content: center;
+}
+
+.icon {
+    width: 10%;
+    min-width: 200px;
+
+}
+
+.icon img {
+    width: 8vw;
+    min-width: 150px;
+}
+
+.description {
+    width: 50%;
+    min-width: 200px;
+    margin: 0px 25px;
+}
+
+.description p{
+    padding-top: 10px;
+    min-width: 200px;
+}
+
+.buttons {
+    width: 20%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.buttons a:hover {
+    background-color: #fff;
+    color: rgb(9, 185, 9);
+}
+
+.buttons a{
+    border: 1px solid rgb(9, 185, 9);
+    border-radius: 10px;
+    background-color: rgb(9, 185, 9);
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 80%;
+    text-align: center;
+    padding: 10px 7px;
+    min-width: 200px;
+}
+
+
+@media  (max-width: 1150px) {
+    .description {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .description h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .description p{
+        padding: 20px 0px;
+        text-align: justify;
+    }
+    .buttons {
+        width: 100%;
+        margin: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icon {
+        text-align: center;
+    
+    }
+    
+    .icon img {
+        text-align: center;
+    }
+}
